@@ -1,5 +1,4 @@
 #ignore node_module directory
 node_modules/
-db.js/
 
 #other entries...
