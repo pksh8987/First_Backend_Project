@@ -13,15 +13,15 @@ const db=mongoose.connection;
 
 
 db.on('connected',()=>{
-    console.log('server is connected');
+    console.log('Server abhi zinda hai');
 });
 
 db.on('disconnected',()=>{
-    console.log('server is disconnected');
+    console.log('Gya server paani me');
 });
 
 db.on('error',(err)=>{
-    console.log("the system has detected some errors",err);
+    console.log("sytem ne gadbad detect kiya hai",err);
 });
 
 
